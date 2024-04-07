@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="EntityFramework\" />
-    <Folder Include="Abstract\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
 
@@ -23,6 +22,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SignalR.EntityLayer\SignalR.EntityLayer.csproj" />
   </ItemGroup>
 
 </Project>

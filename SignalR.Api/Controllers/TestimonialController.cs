@@ -1,8 +1,6 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SignalR.BusinessLayer.Abstract;
-using SignalR.DTOLayer.SocialMediaDTO;
 using SignalR.DTOLayer.TestimonialDTO;
 using SignalR.EntityLayer.Entities;
 

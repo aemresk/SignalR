@@ -49,7 +49,7 @@ namespace SignalR.Api.Controllers
             return Ok("KAtegori Silindi");
         }
 
-        [HttpGet]
+        [HttpGet("GetCategory")]
         public IActionResult GetCategory(int id)
         {
             var value = _categoryService.TGetByID(id);
